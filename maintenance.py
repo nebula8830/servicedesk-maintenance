@@ -7,11 +7,12 @@ def announce_script():
     print("│┼────────────────────────────────────────────────┼│")
     print("││                   Maintenance                  ││")
     print("││                                                ││")
-    print("││ver. 230406A                                 -JT││")
+    print("││ver. 230524A                                 -JT││")
     print("│┼────────────────────────────────────────────────┼│")
     print("└──────────────────────────────────────────────────┘")
 
 def run_command(command, description):
+    print("\n")
     print(f"┌──────────────────────────────────────────────────┼")
     print(f"| {description}")
     print(f"|                                                  ┼")
