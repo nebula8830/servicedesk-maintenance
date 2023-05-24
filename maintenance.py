@@ -53,7 +53,7 @@ def main():
     print("│                    Complete                      │")
     print("└──────────────────────────────────────────────────┘")
     print("Script finished.")
-    sleep(120)
+    sleep(14400)
 
 if __name__ == '__main__':
     main()
