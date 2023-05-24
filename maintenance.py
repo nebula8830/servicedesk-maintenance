@@ -1,3 +1,5 @@
+# pyinstaller --onefile --uac-admin maintenance.py
+
 import platform
 import subprocess
 from time import sleep
@@ -7,7 +9,7 @@ def announce_script():
     print("│┼────────────────────────────────────────────────┼│")
     print("││                   Maintenance                  ││")
     print("││                                                ││")
-    print("││ver. 230524A                                 -JT││")
+    print("││ver. 230524B                                 -JT││")
     print("│┼────────────────────────────────────────────────┼│")
     print("└──────────────────────────────────────────────────┘")
 
